@@ -1,1 +1,3 @@
-# Solo Project | Mo Spiegel | Computer Programming 2
+# Special Relativity Clocks
+## Mo Spiegel
+### Computer Programming 2
