@@ -16,8 +16,19 @@ This project will be an interactive simulator that allows a user to input a velo
 
 &nbsp;
 
+![UML](https://github.com/Mo59471/RelativisticBoats/blob/main/images/UML.png?raw=true)
+
+&nbsp;
+
 ***
 
 &nbsp;
 
 ### UI Mockup
+
+&nbsp;
+
+![UI](https://github.com/Mo59471/RelativisticBoats/blob/main/images/SpecialRelativityClocksUI.png?raw=true)
+
+&nbsp;
+
