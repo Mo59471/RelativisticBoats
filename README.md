@@ -8,25 +8,13 @@ This project will be an interactive simulator that allows a user to input a velo
 
 &nbsp;
 
-***
-
-&nbsp;
-
 ## Purpose
 This project seeks to provide an intuitive grasp of special relativity, a notoriously unintuitive concept, to users. The project also seeks to appeal aesthetically and hold artistic and entertainment value for those interested in physics.
 
 &nbsp;
 
-***
-
-&nbsp;
-
 ## Target User
 This project targets users who are learning or wish to learn special relativity, and want to achieve an intuitive grasp of the concept. These individuals will largely consist of high schoolers in advanced physics programs, or even undergraduate students. This project can also be used by educators as a teaching tool.
-
-&nbsp;
-
-***
 
 &nbsp;
 
@@ -41,10 +29,6 @@ This project targets users who are learning or wish to learn special relativity,
 
 &nbsp;
 
-***
-
-&nbsp;
-
 ## Program Structure
 This project will be constructed using Python and the Pygame library for its graphics capabilities. 6 source files will be present, including one main file, and five classes. These are:
 1. Boat Class
@@ -53,10 +37,6 @@ This project will be constructed using Python and the Pygame library for its gra
 4. Slider Class
 5. Button Class
 Details on the contents of each file can be found in the UML.
-
-&nbsp;
-
-***
 
 &nbsp;
 
