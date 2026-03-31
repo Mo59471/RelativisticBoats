@@ -36,8 +36,7 @@ This project will be constructed using Python and the Pygame library for its gra
 3. Checkbox Class
 4. Slider Class
 5. Button Class
-Details on the contents of each file can be found in the UML.
-
+   
 &nbsp;
 
 ## Challenges
