@@ -48,6 +48,10 @@ Implementing the elegant graphics that I'm planning will likely be the most diff
 
 &nbsp;
 
+## Artifacts
+
+&nbsp;
+
 ### UML Diagram
 
 &nbsp;
