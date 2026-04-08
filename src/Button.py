@@ -4,15 +4,12 @@ class Button:
 
     def __init__(self, label, x, y, w, h, img, hovImg, clickImg):
         self.label = label
-        self.x = x
-        self.y = y
-        self.w = w
-        self.h = h
+        self.rect = pygame.Rect(x,y,w,h)
         self.img = img
         self.hovImg = hovImg
         self.clickImg = clickImg
         self.hovering = False
-        self.disT = -1
+        self.toggle = -1
 
     def display(self, screen, clicked):
         if clicked == False and self.hovering:
@@ -23,8 +20,8 @@ class Button:
             screen.blit(self.img, (0,0))
     
     def hover(self):
-        mouseX, mouseY = pygame.mouse.get_pos()
-        if mouseX >= self.x and mouseX <= self.x +self.w and mouseY >= self.y and mouseY <= self.y + self.h:
+        mousePos = pygame.mouse.get_pos()
+        if self.rect.collidepoint(mousePos):
             self.hovering = True
         else:
             self.hovering = False
