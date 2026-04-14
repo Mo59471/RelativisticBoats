@@ -3,7 +3,6 @@ import pygame
 class Slider:
     def __init__(self):
         self.slideX = 0
-        self.v = 0
         self.hovering = False
         self.starImg = pygame.image.load("Star.png").convert_alpha()
 
@@ -14,6 +13,12 @@ class Slider:
             mouseX, _ = pygame.mouse.get_pos()
             if mouseX >= 25 and mouseX + 50 <= 294:
                 self.slideX = mouseX - 25
+
+    def getV(self):
+        if self.slideX > 217:
+            return 299792458
+        else:
+            return self.slideX * 1368915.33333
 
 
                 
